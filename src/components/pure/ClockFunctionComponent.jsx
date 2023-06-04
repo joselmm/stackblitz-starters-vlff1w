@@ -18,7 +18,7 @@ const ClockFunctionComponent = () => {
     });
   }
 
-  //ComponentDidMount Function:
+  //ComponentDidMount and ComponentWillUnmount functions:
   let intervalId = null;
   useEffect(() => {
     console.log('se ha montado el componente');
